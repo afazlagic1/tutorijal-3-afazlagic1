@@ -40,6 +40,5 @@ public class Imenik {
     Set<TelefonskiBroj> izGradaBrojevi(Grad g) {
         Set<TelefonskiBroj> brojevi = new Set<TelefonskiBroj>();
         return brojevi;
-    }
-    */
+    }*/
 }
