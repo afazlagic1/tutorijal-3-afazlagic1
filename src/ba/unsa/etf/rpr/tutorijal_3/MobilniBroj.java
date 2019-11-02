@@ -10,6 +10,6 @@ public class MobilniBroj extends TelefonskiBroj {
 
     @Override
     public String ispisi() {
-        return "0" + String.valueOf(mobilnaMreza) + broj;
+        return "0" + String.valueOf(mobilnaMreza) + "/" + broj;
     }
 }

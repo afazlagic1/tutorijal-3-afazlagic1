@@ -3,6 +3,7 @@ package ba.unsa.etf.rpr.tutorijal_3;
 public class FiksniBroj extends TelefonskiBroj {
     private Grad grad;
     private String broj;
+    public enum Grad { SARAJEVO, TUZLA, ZENICA, BIHAĆ, ORAŠJE, TRAVNIK, MOSTAR, ŠIROKIBRIJEG, GORAŽDE, LIVNO, BRČKO};
     private String pozivniBroj() {
         switch (grad) {
             case SARAJEVO:
