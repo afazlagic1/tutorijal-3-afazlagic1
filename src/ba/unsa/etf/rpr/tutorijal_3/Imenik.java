@@ -71,7 +71,7 @@ public class Imenik {
         return skupGradova;
     }
     Set<TelefonskiBroj> izGradaBrojevi(FiksniBroj.Grad g) {
-        Set<TelefonskiBroj> brojevi = new HashSet<>();
+        Set<TelefonskiBroj> brojevi = new TreeSet<>();
         for(TelefonskiBroj t : imenik.values()) {
             if(t instanceof FiksniBroj)
                 if(t.ispisi().substring(0, 3).equals(pozivniBroj(g)))
